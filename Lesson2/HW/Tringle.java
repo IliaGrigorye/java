@@ -2,7 +2,7 @@ package Lesson2.HW;
 import java.util.Scanner;
 
 public class Tringle {
-    static int[] Tringle(int n) {
+    static int[] Tringl(int n) {
         int[] arr = new int[n];
         int count = 1;
         for (int i = 0; i <= n-1 ; i++) {
@@ -24,7 +24,7 @@ public class Tringle {
         int n = sc.nextInt();
         sc.close();
 
-        var tr = Tringle(n);
+        var tr = Tringl(n);
         System.out.printf("Для числа %d: ", n);
 
         for (int i = 0; i <= n-1; i++) {
