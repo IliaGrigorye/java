@@ -1,6 +1,4 @@
 package Lesson2.HW;
-import java.nio.channels.NonReadableChannelException;
-import java.text.BreakIterator;
 import java.util.Scanner;
 
 public class Tringle {
