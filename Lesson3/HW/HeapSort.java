@@ -70,11 +70,10 @@ public class HeapSort {
         System.out.printf("Введите размер массива: ");
         int size = sc.nextInt();
         int A[] = new int[size];
-        System.out.printf("Введите элемент массива: ");
+        System.out.printf("Введите элементы массива: ");
         for (int i = 0; i < size; i++) {
             A[i] = sc.nextInt();
         }
-        // int[] A = { -5, 4, 7, 12, -9, -2 };
 
         heapsort(A);
 
