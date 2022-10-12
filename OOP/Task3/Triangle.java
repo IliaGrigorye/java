@@ -18,13 +18,13 @@ public class Triangle extends Figure {
 
     @Override
     public Double area(){
-        Double p = (a + b + c) / 2;
+        Double p = (a + b + c) / 2.0;
         return Math.sqrt(p * (p - a) * (p - b) * (p-c));
     }
 
     @Override
     public Double perimeter(){
-        return a + b + c;
+        return (a + b + c) * 1.0;
     }
 
 }
